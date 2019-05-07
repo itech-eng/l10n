@@ -7,11 +7,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
-	"github.com/qor/roles"
+	"github.com/itech-eng/admin"
+	"github.com/itech-eng/qor"
+	"github.com/itech-eng/qor/resource"
+	"github.com/itech-eng/qor/utils"
+	"github.com/itech-eng/roles"
 )
 
 // Global global language
@@ -190,7 +190,7 @@ func (l *Locale) ConfigureQorResource(res resource.Resourcer) {
 		}
 
 		// Inject for l10n
-		Admin.RegisterViewPath("github.com/qor/l10n/views")
+		Admin.RegisterViewPath("github.com/itech-eng/l10n/views")
 
 		// Middleware
 		Admin.GetRouter().Use(&admin.Middleware{

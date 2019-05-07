@@ -4,7 +4,7 @@ import (
 	"reflect"
 
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor/utils"
+	"github.com/itech-eng/qor/utils"
 )
 
 // IsLocalizable return model is localizable or not
